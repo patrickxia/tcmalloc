@@ -150,21 +150,12 @@ $$f$$ before this allocation.
 
 $$
 \underbrace{
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{*}
-}_\text{$f$}
+\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[*]}
+}_{f}
+\kern 2pt
 \underbrace{
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-\boxed{\phantom{*}}
-}_\text{$k-f$}
+\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}\mathtt{[.]}
+}_{k-f}
 $$
 
 The *sampling weight* $$W$$ (n.b. not `allocation count estimate`, which is
